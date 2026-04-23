@@ -375,9 +375,6 @@ Correlation Matrix
 
 ![image](sales_prediction/reports/figures/correlation_matrix.png)
 
-Heatmap showing correlation between features and target variable (Sales).
-![image]()
-
 Model Performance Comparison
 ![image](sales_prediction/reports/figures/model_comparison.png)
 
