@@ -234,20 +234,16 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-**Mac/Linux:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
 ```
 
 ### **Step 3: Install Dependencies**
 
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy matplotlib seaborn scikit-learn scipy
 ```
 
-**requirements.txt:**
-```txt
+**requirements**
+```
 pandas==3.0.1
 numpy==1.24.3
 matplotlib==3.7.2
@@ -267,13 +263,7 @@ plotly==5.15.0
 2. Download `advertising.csv`
 3. Place in `data/raw/` folder
 
-### **Step 5: Verify Installation**
 
-```bash
-python -c "import pandas; import sklearn; print('Installation successful!')"
-```
-
----
 
 ## 📁 Project Structure
 
@@ -599,7 +589,6 @@ Contributions welcome! Areas for improvement:
 
 ### ⭐ If you found this project helpful, please star the repository! ⭐
 
-**Made with ❤️ and ☕ by [rajashree ghosh]**
 
 [⬆ Back to Top](#-sales-prediction-using-machine-learning)
 
