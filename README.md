@@ -189,14 +189,14 @@ Raw Data → Cleaning → Feature Engineering → Modeling → Evaluation → De
 | Library | Version | Purpose |
 |---------|---------|---------|
 | **Pandas** | 3.0.1 | Data manipulation and analysis |
-| **NumPy** | 1.24.3 | Numerical computations |
+| **NumPy** | 2.4.2 | Numerical computations |
 | **scikit-learn** | 1.8.0 | Machine learning algorithms |
 | **SciPy** | 1.17.1 | Scientific computing |
-| **Matplotlib** | 3.7.2 | Core plotting library |
+| **Matplotlib** | 3.10.8 | Core plotting library |
 | **Seaborn** | 0.13.2 | Statistical visualizations |
 | **BeautifulSoup4** | 4.14.3 | Web scraping and parsing |
 | **statsmodels** | 0.14.0 | Statistical modeling |
-| **Plotly** | 5.15.0 | Interactive visualizations |
+| **Plotly** | 6.6.0 | Interactive visualizations |
 
 ---
 
@@ -322,11 +322,7 @@ sales-prediction-project/
 
 ### **Quick Start**
 
-```bash
-# Activate virtual environment
-source venv/bin/activate  # Mac/Linux
-# or
-venv\Scripts\activate     # Windows
+
 
 # Run complete pipeline
 python main.py
@@ -460,7 +456,38 @@ Performance Metrics:
 
 ---
 
-### **Feature Importance**
+### **Feature Visualizations
+Data Distribution Analysis
+![image](sales_prediction/reports/figures/data_distributions.png)
+
+Distribution analysis of advertising spend across TV, Radio, and Newspaper channels with outlier detection.
+
+Correlation Matrix
+
+![image](sales_prediction/reports/figures/correlation_matrix.png)
+
+Heatmap showing correlation between features and target variable (Sales).
+![image]()
+
+Model Performance Comparison
+![image](sales_prediction/reports/figures/model_comparison.png)
+
+Comprehensive comparison of 8 regression algorithms across multiple metrics (R², RMSE, Cross-validation scores).
+
+Feature Importance Analysis
+![image](sales_prediction/reports/figures/feature_importance.png)
+
+Top features contributing to sales predictions - TV advertising shows highest importance at 45.23%.
+
+Prediction Accuracy
+Actual vs Predicted
+
+Scatter plot showing model predictions vs actual sales values - demonstrates 92.34% accuracy.
+
+Scenario Analysis
+![image](sales_prediction/reports/figures/scenario_analysis.png)
+
+ROI comparison across different advertising budget allocation scenarios.mportance**
 
 **Top 10 Features:**
 
@@ -558,37 +585,13 @@ Contributions welcome! Areas for improvement:
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License**.
-
----
 
 ## 📞 Contact & Support
 
-**Author:** Your Name  
-**Email:** your.email@example.com  
-**LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)  
-**GitHub:** [Repository](https://github.com/yourusername/sales-prediction)
-
----
-
-## 🏆 Acknowledgments
-
-- **Dataset:** [Kaggle Advertising Dataset](https://www.kaggle.com/datasets/bumba5341/advertisingcsv)
-- **Inspiration:** IBM Data Science Professional Certificate
-- **Libraries:** scikit-learn, pandas, matplotlib, seaborn teams
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] Time series analysis with ARIMA/Prophet
-- [ ] Deep learning models (TensorFlow/PyTorch)
-- [ ] Interactive web dashboard
-- [ ] Cloud deployment (AWS/GCP)
-- [ ] SHAP explainability integration
-- [ ] Real-time prediction API
+**Author:** RAJASHREE GHOSH
+**Email:** skillcoderisme555@gmail.com  
+**GitHub:** [Repository](https://github.com/datacubics111-rsri/data_Science_2/tree/main/sales_prediction)
 
 ---
 
@@ -596,7 +599,7 @@ This project is licensed under the **MIT License**.
 
 ### ⭐ If you found this project helpful, please star the repository! ⭐
 
-**Made with ❤️ and ☕ by [Your Name]**
+**Made with ❤️ and ☕ by [rajashree ghosh]**
 
 [⬆ Back to Top](#-sales-prediction-using-machine-learning)
 
@@ -604,6 +607,6 @@ This project is licensed under the **MIT License**.
 
 ---
 
-**Last Updated:** January 2025  
-**Version:** 1.0.0  
-**Status:** ✅ Production Ready
+**Last Updated:** APRIL 2026
+
+
