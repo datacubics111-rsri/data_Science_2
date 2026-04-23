@@ -1,9 +1,5 @@
 # data_Science_2
-Sales prediction using python
 
-
-sales_prediction/reports/figures/correlation_matrix.png
-sales_prediction/reports/figures/data_distributions.png
 # 📊 Sales Prediction Using Machine Learning
 
 <div align="center">
