@@ -14,7 +14,7 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7.2-11557c)
 
 
-**A Professional End-to-End Machine Learning Project for Predicting Sales Based on Advertising Spend**
+**A Professional End-to-End Machine Learning Project for Predicting Sales Based on Advertising Spend ON TV,RADIO,NEWSPAPERS**
 
 [Features](#-features) • [Theory](#-theoretical-foundation) • [Installation](#-installation) • [Usage](#-usage) • [Results](#-results) • [Documentation](#-documentation)
 
